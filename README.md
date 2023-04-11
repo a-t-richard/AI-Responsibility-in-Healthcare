@@ -1,2 +1,72 @@
-# AI-Responsibility-in-Healthcare
-A course on the responsibility of algorithms (and their developers) when applied in healthcare contexts
+# Algorithms Responsibility in Healthcare Context
+
+Algorithms are now ubiquitous in healthcare contexts. It's hard to find
+any hospital without a so called Health Information System (HIS).
+Furthermore, in the last decades, Artificial Intelligence (AI) algorithms
+have shown there ability to treat large amount of data and overcome
+clinicians in specific task (ex. detection of microscopique nodules).
+This especially the case of neural networks.
+
+However, the use of such algorithms in healthcare context raises
+several ethical issues:
+
+* **Responsibility issues**: in case of medical errors, due to the
+use of an AI tool, who is responsible?
+* **Transparency issues**: algorithms such as neural networks
+can appears as "black-box" tools for patients and clinicians,
+and then generate reject
+* **Biaised decisions issues**: data-driven algorithms have
+tendency to reproduce, and sometimes amplify, discrminations
+* **Design-reality issues**: Clinical Decision Support Systems (CDSS),
+based oon AI or not, can fail if they don't fit with clinicians
+needs or working process
+
+During this course we'll learn how to identify the ethical
+issues raised by the use of AI-based HIS and how to overcome them.
+To do so, students will by dispach in groups and work on a use case based on
+problematics from emergency departments and will have to propose an AI-based
+HIS adapted to this use case. Each group have to choose one, and one only,
+use case.
+
+*N.B:* Proposed use cases can hide sub-problems or problems connected
+to these use case. Propositions that identify these hidden problems
+and propose solutions are welcomed.
+
+## USE CASE 1: Patient triage
+
+A main problematic in emergency departments is patient triage.
+Clinicians in these departments have continously to prioritize
+patient over other depending on several variables.
+This prioritization is crucial and a mistake can lead to
+medical errors or death.
+
+In this use case, you'll have to propose an AI-based HIS
+able to prioritize patient, with a score between 1-10, according to
+several variables.
+Resources necessary for this use case are available
+in the repertory *UC1-patient-triage*.
+
+
+## USE CASE 2: Early diagnosis
+
+TODO
+
+## USE CASE 3: Patient allocation
+
+TODO
+
+## Conditions de rendu
+
+Presentation slides/report on the design of an AI-based HIS
+adapted to the use case choseen 
+
+We essentially expect students to identify ethical issues linked
+to the of AI algorithms in the proposed use case, and to propose
+a concept of an AI-based that overcome these issues.
+
+No real software is asked, only concepts.
+
+## Acknowledgments
+
+Datasets proposed in this course are synthetic 
+and do not reflect reality.
