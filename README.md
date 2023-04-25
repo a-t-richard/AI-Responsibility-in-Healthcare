@@ -46,7 +46,6 @@ several variables.
 Resources necessary for this use case are available
 in the repertory *UC1-patient-triage*.
 
-
 ## USE CASE 2: Early diagnosis
 
 TODO
@@ -55,18 +54,25 @@ TODO
 
 TODO
 
-## Conditions de rendu
+## What is expected from students
 
-Presentation slides/report on the design of an AI-based HIS
-adapted to the use case choseen 
+A presentation on the design of an AI-based HIS
+adapted to the chosen use case.
 
 We essentially expect students to identify ethical issues linked
 to the of AI algorithms in the proposed use case, and to propose
-a concept of an AI-based that overcome these issues.
+a concept of an AI-based that overcome these issues. Of course,
+each choice is the design has to be justified.
 
 No real software is asked, only concepts.
 
 ## Acknowledgments
 
 Datasets proposed in this course are synthetic 
-and do not reflect reality.
+and do not reflect reality. Patients have been generated
+with [Synthea](https://synthetichealth.github.io/synthea/)
+throught the following command:
+
+```{bash}
+java -jar synthea-with-dependencies.jar -p 10000 -s 42 -cs 1312 --exporter.fhir.export false --exporter.hospital.fhir.export false --exporter.csv.export true --exporter.symptoms.csv.export true
+```
