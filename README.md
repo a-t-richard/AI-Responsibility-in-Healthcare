@@ -32,10 +32,10 @@ use case.
 to these use case. Propositions that identify these hidden problems
 and propose solutions are welcomed.
 
-## USE CASE 1: Patient triage
+## USE CASE: Patient triage in emergency
 
 A main problematic in emergency departments is patient triage.
-Clinicians in these departments have continously to prioritize
+Clinicians in these departments have to continously prioritize
 patient over other depending on several variables.
 This prioritization is crucial and a mistake can lead to
 medical errors or death.
@@ -43,18 +43,33 @@ medical errors or death.
 In this use case, you'll have to propose an AI-based HIS
 able to prioritize patient, with a score between 1-10, according to
 several variables.
-Resources necessary for this use case are available
-in the repertory *UC1-patient-triage*.
+A dataset and a Jupyter’s notebook are available
+in the repertory *UC-patient-triage*.
 
-## USE CASE 2: Early diagnosis
+### Getting started
 
-TODO
+To use the Jupyter’s notebook, you’ll first need to
+install the necessary dependencies.
 
-## USE CASE 3: Patient allocation
+To do so, use the command lines below:
 
-TODO
+```{bash}
+python -m venv .venv
+.venv/Scripts/activate
+pip install -r requirements.txt
+```
 
-## What is expected from students
+For instance, you’ll need at least the version 3.9 of python.
+Feel free to install any additionnal python library.
+
+Once all the dependencies are installed, you can run the notebook
+by using the command below:
+
+```{bash}
+jupyter notebook UC-patient-triage/UC_Patient_Triage.ipynb
+```
+
+### What is expected from students
 
 A presentation on the design of an AI-based HIS
 adapted to the chosen use case.
