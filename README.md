@@ -48,7 +48,12 @@ in the repertory *UC-patient-triage*.
 
 ### Getting started
 
-To use the Jupyter’s notebook, you’ll first need to
+First of all, you’ll need to install:
+
+* [Python](https://www.python.org/downloads/)
+* [Oracle JDK](https://www.oracle.com/java/technologies/downloads/) ([OpenJDK](https://openjdk.org/) should also works)
+
+Then, to use the Jupyter’s notebook, you’ll need to
 install the necessary dependencies.
 
 To do so, use the command lines below:
@@ -56,11 +61,11 @@ To do so, use the command lines below:
 ```{bash}
 python -m venv .venv
 .venv/Scripts/activate
+pip install numpy==1.24.3
 pip install -r requirements.txt
 ```
 
-For instance, you’ll need at least the version 3.9 of python.
-Feel free to install any additionnal python library.
+Feel free to install any additionnal python library you need.
 
 Once all the dependencies are installed, you can run the notebook
 by using the command below:
