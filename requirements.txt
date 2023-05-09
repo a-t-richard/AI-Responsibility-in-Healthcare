@@ -45,11 +45,7 @@ jupyter_server_terminals==0.4.4
 jupyterlab-pygments==0.2.2
 jupyterlab-widgets==3.0.7
 kiwisolver==1.4.4
-<<<<<<< HEAD
 lazy-loader==0.2
-=======
-lazy_loader==0.2
->>>>>>> 988a4b3c79abc321f9530fb3ee5012d50e95ffd0
 lime==0.2.0.1
 MarkupSafe==2.1.2
 matplotlib==3.7.1
@@ -62,11 +58,7 @@ nbformat==5.8.0
 nest-asyncio==1.5.6
 networkx==3.1
 notebook==6.5.4
-<<<<<<< HEAD
-notebook-shim==0.2.3
-=======
 notebook_shim==0.2.3
->>>>>>> 988a4b3c79abc321f9530fb3ee5012d50e95ffd0
 packaging==23.1
 pandas==2.0.1
 pandocfilters==1.5.0
