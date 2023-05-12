@@ -52,6 +52,7 @@ First of all, you’ll need to install:
 
 * [Python](https://www.python.org/downloads/)
 * [Oracle JDK](https://www.oracle.com/java/technologies/downloads/) ([OpenJDK](https://openjdk.org/) should also works)
+* on windows: [Visual CPP build tools](https://visualstudio.microsoft.com/fr/visual-cpp-build-tools/)
 
 Then, to use the Jupyter’s notebook, you’ll need to
 install the necessary dependencies.
