@@ -50,9 +50,9 @@ in the repertory *UC-patient-triage*.
 
 First of all, you’ll need to install:
 
-* [Python](https://www.python.org/downloads/)
+* [Python 3.10](https://www.python.org/downloads/release/python-31011/)
 * [Oracle JDK](https://www.oracle.com/java/technologies/downloads/) ([OpenJDK](https://openjdk.org/) should also works)
-* on windows: [Visual CPP build tools](https://visualstudio.microsoft.com/fr/visual-cpp-build-tools/)
+* on windows: [Microsoft Visual C++ 14.0](https://visualstudio.microsoft.com/fr/visual-cpp-build-tools/)
 
 Then, to use the Jupyter’s notebook, you’ll need to
 install the necessary dependencies.
@@ -63,6 +63,7 @@ To do so, use the command lines below:
 python -m venv .venv
 .venv/Scripts/activate
 pip install numpy==1.24.3
+set SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
 pip install -r requirements.txt
 ```
 
