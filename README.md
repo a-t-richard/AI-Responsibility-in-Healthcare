@@ -96,3 +96,12 @@ through the following command:
 ```{bash}
 java -jar synthea-with-dependencies.jar -p 10000 -s 42 -cs 1312 --exporter.fhir.export false --exporter.hospital.fhir.export false --exporter.csv.export true --exporter.symptoms.csv.export true
 ```
+
+These data are based demographic data concerning the population
+of massachusset. To highlight the reproduction of discrimative behaviors
+by Machine Learning algorithms, we decide to keep data concerning
+the "race" of the synthetic patients.
+
+However, it’s important to us to specify that the notion of "race"
+is a total nonsense without any scientific basis, and we’re totally
+against any public policies based on such notion.
